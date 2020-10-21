@@ -4,11 +4,16 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Configuration;
+using System.Data.SqlClient;
 
 namespace restfulservice.Controllers
 {
     public class ValuesController : ApiController
     {
+
+        string connectionString;
+
         // GET api/values
         public IEnumerable<string> Get()
         {

@@ -1,0 +1,1 @@
+﻿SELECT * FROM EngineMoves WHERE Position='....r...KPb.............P.Bp...P....k..pRp...........P...........'
