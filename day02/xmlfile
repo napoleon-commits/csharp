@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xmlapp</name>
+    </assembly>
+    <members>
+        <member name="T:Xmlapp">
+            <summary>
+            This is a summary describing the class.</summary>
+            <remarks>
+            This is a longer comment that can be used to descrive
+            the class. </remarks>
+        </member>
+        <member name="M:Xmlapp.Main(System.String[])">
+            <summary>
+            The entry point for the application.
+            </summary>
+            <param name="args"> A list of command line arguments</param>
+        </member>
+    </members>
+</doc>
