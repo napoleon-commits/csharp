@@ -9,10 +9,17 @@ namespace ConsoleApp1
         {
             IConfiguration _configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json", true, true).Build();
             Console.WriteLine("Hello {0}!", _configuration["name"]);
+            string[] allowedFileTypes = { };
             IConfigurationSection mySections = _configuration.GetSection("IndexFileTypes");
             foreach(IConfigurationSection section in mySections.GetChildren())
             {
-                Console.WriteLine(section.Value);
+                Array.Resize(ref allowedFileTypes, allowedFileTypes.Length + 1);
+                allowedFileTypes[allowedFileTypes.Length - 1] = section.Value;
+            }
+
+            foreach(var item in allowedFileTypes)
+            {
+                Console.WriteLine(item.ToString());
             }
         }
     }
