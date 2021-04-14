@@ -1,1 +1,5 @@
 *.exe
+readingjsonfiles/ConsoleApp1/ConsoleApp1/bin
+readingjsonfiles/ConsoleApp1/ConsoleApp1/obj/Debug
+readingjsonfiles/ConsoleApp1/ConsoleApp1/obk/Release
+readingjsonfiles/ConsoleApp1/.vs
