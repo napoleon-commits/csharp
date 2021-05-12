@@ -16,9 +16,9 @@ namespace WebApplication1.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IScheduler _scheduler;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IScheduler factory)
         {
-            _logger = logger;
+            _scheduler = factory;
         }
 
         public IActionResult Index()

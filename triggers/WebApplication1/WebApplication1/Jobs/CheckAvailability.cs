@@ -19,7 +19,7 @@ namespace WebApplication1.Jobs
             {
                 Console.WriteLine(ex);
             }
-            throw new NotImplementedException();
+            return Task.FromResult(0);
         }
     }
 }
