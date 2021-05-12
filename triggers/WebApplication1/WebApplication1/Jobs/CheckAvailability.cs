@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace WebApplication1.Jobs
 {
-    public class CheckAvailability : IJob
+    public class CheckAvailabilityJob : IJob
     {
         Task IJob.Execute(IJobExecutionContext context)
         {
