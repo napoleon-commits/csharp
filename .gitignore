@@ -1,5 +1,10 @@
 *.exe
 readingjsonfiles/ConsoleApp1/ConsoleApp1/bin
 readingjsonfiles/ConsoleApp1/ConsoleApp1/obj/Debug
-readingjsonfiles/ConsoleApp1/ConsoleApp1/obk/Release
+readingjsonfiles/ConsoleApp1/ConsoleApp1/obj/Release
 readingjsonfiles/ConsoleApp1/.vs
+
+triggers/WebApplication1/.vs
+triggers/WebApplication1/WebApplication1/bin
+triggers/WebApplication1/WebApplication1/obj/Debug
+triggers/WebApplication1/WebApplication1/obj/Release
