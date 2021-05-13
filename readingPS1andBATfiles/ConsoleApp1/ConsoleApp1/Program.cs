@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
+using System.Reflection;
 
 namespace ConsoleApp1
 {
@@ -14,7 +16,6 @@ namespace ConsoleApp1
                 Arguments = $"-NoProfile -ExecutionPolicy Bypass -Command \"&'{ps1File}'\"",
                 UseShellExecute = false
             };
-
             Process.Start(startInfo);
         }
     }
