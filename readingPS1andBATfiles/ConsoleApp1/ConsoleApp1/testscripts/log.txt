@@ -1,0 +1,2 @@
+An Exception has occured.
+Details: Illegal characters in path.
