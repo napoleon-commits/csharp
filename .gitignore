@@ -8,3 +8,8 @@ triggers/WebApplication1/.vs
 triggers/WebApplication1/WebApplication1/bin
 triggers/WebApplication1/WebApplication1/obj/Debug
 triggers/WebApplication1/WebApplication1/obj/Release
+
+DatabaseFirstDemo/DatabaseFirstDemo/obj/Debug
+DatabaseFirstDemo/DatabaseFirstDemo/obj/Release
+DatabaseFirstDemo/DatabaseFirstDemo/bin
+DatabaseFirstDemo/.vs
