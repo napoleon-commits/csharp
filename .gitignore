@@ -13,3 +13,7 @@ DatabaseFirstDemo/DatabaseFirstDemo/obj/Debug
 DatabaseFirstDemo/DatabaseFirstDemo/obj/Release
 DatabaseFirstDemo/DatabaseFirstDemo/bin
 DatabaseFirstDemo/.vs
+
+**/obj/Debug
+**/obj/Release
+**/bin
