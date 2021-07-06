@@ -22,6 +22,28 @@ namespace xpath
                 {
                     Console.WriteLine(node.InnerText);
                 }
+                result = doc.SelectNodes("/note/to[contains(text(), '')]");
+                foreach (XmlNode node in result)
+                {
+                    Console.WriteLine(node.InnerText);
+                }
+                result = doc.SelectNodes("/note/to[contains(text(), 'e')]");
+                foreach (XmlNode node in result)
+                {
+                    Console.WriteLine(node.InnerText);
+                }
+                result = doc.SelectNodes("/note/to[contains(text(), '!')]");
+                if (result.Count == 0)
+                {
+                    Console.WriteLine("No result found for" + "/note/to[contains(text(), '!')]");
+                }
+                else
+                {
+                    foreach (XmlNode node in result)
+                    {
+                        Console.WriteLine(node.InnerText);
+                    }
+                }
             }
             catch (Exception e)
             {
